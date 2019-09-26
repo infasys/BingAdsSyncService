@@ -1,0 +1,4 @@
+NuGet Package Manager Console
+Click on Tools -> NuGet Package Manager -> Package Manager Console.
+Choose the default project where you want the SDK installed, and then within the console command line, type Install-Package Microsoft.BingAds.SDK.
+If you do not already have references to System.ServiceModel.Primitives 4.4.1, System.ServiceModel.Http 4.4.1, and System.ServiceModel.ConfigurationManager 4.4.1, type Install-Package System.ServiceModel.Primitives -Version 4.4.1, Install-Package System.ServiceModel.Http -Version 4.4.1, and Install-Package System.Configuration.ConfigurationManager -Version 4.4.1.
